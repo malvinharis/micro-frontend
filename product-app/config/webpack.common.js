@@ -7,6 +7,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.scss|\.css$/,
+                use: ['vue-style-loader', 'style-loader', 'css-loader', 'sass-loader'] 
+            },
+            {
                 test: /\.vue$/,
                 use: 'vue-loader'
             },
