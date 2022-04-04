@@ -43,9 +43,9 @@ export default {
       console.log(mount)
     },
     openCart(){
-      this.isCartShow != this.isCartShow;
-      if(this.isCartShow){
-        this.mountCartApp()
+      this.isCartShow = true;
+      if(this.isCartShow) {
+        window.parent.postMessage({"isCartShow": this.isCartShow}, 'http://localhost:8080/');
       }
     }
   },
