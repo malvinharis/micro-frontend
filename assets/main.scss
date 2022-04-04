@@ -78,6 +78,12 @@ body{
       border-radius: 100%;
       padding: 1rem;
     }
+
+    .product__out-of-stock &{
+      cursor: auto;
+      background: gray;
+
+    }
   }
 }
 
@@ -87,7 +93,12 @@ body{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-
+  
+  &__out-of-stock{
+    filter: grayscale(1);
+    opacity: .35;
+    background: lightgray;
+  } 
   &__head{
     text-align: center;
   }
@@ -168,7 +179,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(234 238 245 / 87.5%)
+    background: rgb(234 238 245 / 95%)
     // background: rgba(0,0,0, .125);
   }
   
@@ -193,6 +204,12 @@ body{
     width: 2rem;
     height: 2rem;
     padding: 0;
+  }
+  &__empty{
+    padding: 3rem;
+    text-align: center;
+    font-weight: 600;
+    opacity: .35;
   }
   &__body{
     background: rgba(255, 255, 255, .35);
