@@ -1,35 +1,35 @@
 {
   "products": [
     {
-      "uuid":"PA-1",
+      "id": 1,
       "title": "Product A",
       "description": "Recusandae illo eaque ut. Perferendis qui doloremque",
       "image": "http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/mens-better-than-naked-jacket-AVMH_LC9_hero.png",
-      "qty": 5,
+      "stock": 5,
       "price": 100 
     },
     {
-      "uuid":"PB-1",
+      "id": 2,
       "title": "Product B",
       "description": "Recusandae illo eaque ut. Perferendis qui doloremque",
       "image": "http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-better-than-naked-jacket-AVKL_NN4_hero.png",
-      "qty": 2,
+      "stock": 2,
       "price": 150 
     },
     {
-      "uuid":"PC-1",
+      "id": 3,
       "title": "Product C",
       "description": "Recusandae illo eaque ut. Perferendis qui doloremque",
       "image": "http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-single-track-shoe-ALQF_JM3_hero.png",
-      "qty": 3,
+      "stock": 3,
       "price": 200 
     },
     {
-      "uuid":"PD-1",
+      "id": 4,
       "title": "Product D",
       "description": "Recusandae illo eaque ut. Perferendis qui doloremque",
       "image": "http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/enduro-boa-hydration-pack-AJQZ_JK3_hero.png",
-      "qty": 4,
+      "stock": 4,
       "price": 250 
     }
   ]
